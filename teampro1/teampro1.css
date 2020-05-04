@@ -1,0 +1,85 @@
+@font-face { font-family: 'Recipekorea'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Cafe24Ohsquare'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'KyoboHand'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'BBTreeGB'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGB.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'LotteMartHappy'; font-style: normal; font-weight: 400; src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff'); } @font-face { font-family: 'LotteMartHappy'; font-style: normal; font-weight: 700; src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyBold.woff') format('woff'); } .lottemarthappy * { font-family: 'LotteMartHappy', sans-serif; }
+*{
+    font-family: 'KyoboHand';
+    margin-top: 0%;
+    
+}
+
+.list-group-item{
+    width: 70em;
+    font-size: 1rem;
+    text-align: center;
+    
+
+}
+
+.select{
+    
+    
+    border-top: 0em; border-left: 0em; border-right: 0em;
+    
+}
+
+
+.tab-detail-wrap{
+    
+    display: block;
+    z-index: 3;
+    
+}
+
+.nav-item{
+    width: 20%;
+    text-align: center;
+    float: center;
+}
+.overview{
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.location{
+    width: 10%;
+}
+.inform{
+    width: 30em;
+}
+.trainer{
+    height: 15em;
+}
+
+.d_info04{
+    margin-left: 10%;
+}
+.d_info03{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.title{
+    text-align: center;
+}
+.medal{
+    height: 3em;
+}
+.intro{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.hr1{
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+.video{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.review{
+    float: right;
+    margin-right: 20%;
+}
