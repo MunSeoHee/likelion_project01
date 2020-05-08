@@ -16,6 +16,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -27,6 +28,7 @@
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
     <title>information</title>
+    <script src="https://kit.fontawesome.com/92b91a8a02.js" crossorigin="anonymous"></script>
     <script>
         $(function () {
             $('li').click(function () {
@@ -61,6 +63,15 @@
         }
         
     </script>
+    <script>
+        $(function(){
+            $("i").click(function(){
+                $(this).toggleClass("fas");
+                $(this).toggleClass("red");
+            })
+               
+        });
+    </script>
 
     <style>
         .jbFixed {
@@ -93,6 +104,9 @@
             position: relative;
             margin-top: 20vh!important;
         }
+        .red{color: red;}
+        .btm_img{outline: none !important;}
+        .btm_text{outline: none !important;}
     </style>
 </head>
 
@@ -146,7 +160,7 @@
                 <span style="font-size: 15px;">수업 형식</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span style="color: gray; font-size: 15px;">오프라인</span>
             </p>
             <span>
-            <button type="button" class="btm_img" onclick="myFunction()"><img src="https://image.flaticon.com/icons/png/512/14/14815.png"></button>&nbsp&nbsp <button type="button" class="btm_text" onclick="myFunction()">클래스 신청하기</button>
+                <button type="button" class="btm_img"><i class="far fa-heart"></i></button>&nbsp&nbsp <button type="button" class="btm_text">클래스 신청하기</button>
             </span>
         </div>
         </span>
